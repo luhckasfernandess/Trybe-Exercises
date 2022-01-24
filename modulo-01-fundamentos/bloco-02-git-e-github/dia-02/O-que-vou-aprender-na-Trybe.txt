@@ -1,8 +1,11 @@
 O que vou aprender na Trybe:
 
+- JavaScript
+- Autoliderança
 - Unix
 - Bash
 - Git
 - HTML
 - CSS
 - Softskills
+

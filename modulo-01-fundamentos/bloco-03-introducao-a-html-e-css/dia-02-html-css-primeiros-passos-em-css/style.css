@@ -1,0 +1,30 @@
+h1{
+    width: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+li{
+}
+.background-color{
+    background-color: rgb(255, 400, 200);
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+}
+body{
+    font-size: 16px;
+    font-style: oblique;
+    line-height: normal;
+    text-align: center;
+    text-decoration: dimgray;
+}
+#yellow{
+  background-color: yellow;
+}
+#red{
+  background-color: red;
+}
+#marrom{
+  background-color: saddlebrown;
+}

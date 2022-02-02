@@ -1,5 +1,5 @@
 /* 1. Crie uma variável chamada "weekDay" que recebe a string "quarta-feira". */
-let weekDay = "quinta-feira";
+let weekDay = "quarta-feira";
 /* 2. Implemente condicionais para que:
     2.1 Se nossa variável "weekDay" for "segunda-feira",
         "terça-feira", "quarta-feira", "quinta-feira" ou "sexta-feira",

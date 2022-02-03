@@ -1,3 +1,5 @@
+// Obtenha o valor "Serviços" do array menu
+
 let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 
 // Mas e se eu ñ soubesse qual é o nº do índice de 'Serviços' do menu?

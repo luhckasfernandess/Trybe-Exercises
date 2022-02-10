@@ -22,15 +22,23 @@ function changeText(tag, text){
 
 // Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109))
 
-function changeColor (a, b) {
+function changeColorYellow (a, b) {
     let newColor = document.getElementsByClassName(a);
     newColor[0].style.background = b;
 }
 
-changeColor("main-content", "rgb(76,164,109)")
+changeColorYellow("main-content", "rgb(76,164,109)")
+
+// Crie uma função que mude a cor do quadrado vermelho para branco.
+
+function changeColorRed (a, b) {
+    let newColor = document.getElementsByClassName(a);
+    newColor.style.background = b;
+}
+
+changeColorRed("main-content center-content", "white")
 
 /* 
- Crie uma função que mude a cor do quadrado vermelho para branco.
  Crie uma função que corrija o texto da tag <h1>.
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.

@@ -82,6 +82,8 @@ body {
   flex-direction: column;
   margin: 20px;
   flex-basis: 350px;/* Parte 2.1 base no aside de 350px para ficar ao lado da section movies */
+  justify-content: center; /* Alinhamento para centralizar: parte 2.2 */
+  flex-grow: 1; /* Alinhamento para expandir: parte 2.2 */
 }
 
 .aside-container h3, h4 {

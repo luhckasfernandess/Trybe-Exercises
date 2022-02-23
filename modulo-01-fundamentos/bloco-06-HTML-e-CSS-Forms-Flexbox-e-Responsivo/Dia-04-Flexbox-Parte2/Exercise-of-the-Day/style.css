@@ -29,6 +29,7 @@ body {
 .menu-container {
   display: flex;
   flex-basis: 500px; /*tamanho do Flexbox base do menu*/
+  align-self: center; /* Centralizando o menu: Parte 1.4*/
 }
 
 .menu-container ul {

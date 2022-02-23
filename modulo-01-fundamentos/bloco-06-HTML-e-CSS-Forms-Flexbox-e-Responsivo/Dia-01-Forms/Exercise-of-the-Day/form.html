@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form TrybeTrip</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="header">Formulário para Concorrer a Viagem</h1>
+        </header>
+        <form action="" method="get">
+            <p>Nome:
+            <input type="text" id="fullName" name="fullName" placeholder="Digite seu nome completo" required minlength="10" maxlength="40">
+            <!--
+                Para limitar os caracteres consultei esse site 
+                Source: https://www.horadecodar.com.br/2020/04/20/html-como-limitar-caracteres-do-input/ 
+                -->
+            <p>E-mail:
+            <input type="email" id="email" name="email" placeholder="seuemail@gmail.com" required minlength="10" maxlength="50">
+            <p>Destino Preferido:</p>
+            <label for="destination1">
+                <input type="radio" id="destination1" name="preferredDestination" value="city" checked>Cidade
+            </label>
+            <label for="destination2">
+                <input type="radio" id="destination2" name="preferredDestination" value="countrySide">Campo
+            </label>
+            <label for="destination3">
+                <input type="radio" id="destination3" name="preferredDestination" value="beach">Praia
+            </label>
+            <label for="destination4">
+                <input type="radio" id="destination4" name="preferredDestination" value="montains">Montanhas
+            </label>
+            <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+            <textarea name="whyChooseYou" id="whyChooseYou" cols="62" rows="10" maxlength="500" required></textarea>
+            <p>Qual a melhor data para realizar sua viagem?</p>
+            <input type="date" id="date" name="date" required>
+            <label for="notifications"> <p>
+                <input type="checkbox" id="notifications" name="notifications" required>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+            </label>
+            <label for="termsOfUse"> <br>
+                <input type="checkbox" id="termsOfUse" name="termsOfUse" required>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+            </label>
+        </form> 
+    </body>
+</html>

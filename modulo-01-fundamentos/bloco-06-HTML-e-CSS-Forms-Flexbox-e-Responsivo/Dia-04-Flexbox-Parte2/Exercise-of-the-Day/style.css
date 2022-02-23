@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+body {
+  background-color: rgb(247, 247, 247);
+}
+
+.header-container {
+  background-color: #5C687C;
+  display: flex;
+  flex-direction: row-reverse; /*Revertendo a ordem da logo e menu*/
+  justify-content: start; /*Alinhando no início da página*/
+}
+
+.header-container nav:nth-child(1) { /*Parte 1.3*/
+  flex-grow: 1; /*Adicionando propriedade do Flexbox que faz o container do menu crescer*/
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-basis: 268px; /*tamanho do Flexbox base da imagem*/
+}
+
+.menu-container {
+  display: flex;
+  flex-basis: 500px; /*tamanho do Flexbox base do menu*/
+  align-self: center; /* Centralizando o menu: Parte 1.4*/
+}
+
+.menu-container ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.menu-container li {
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 700px; /* Parte 2.3 */
+}
+
+.movie-container h2 {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.card-container { /* Pai */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-container div { /* Filho */
+  align-items: center;
+  background-color: #5C687C;
+  border: black solid 1px;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  margin: 10px;
+  flex-basis: 16%; /* Aplicando a base para os filhos do .card-container pq são elas que queremos estilizar */
+  flex-grow: 10; /* Expandindo o container de filmes em 10 */
+}
+
+.aside-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  flex-basis: 350px;/* Parte 2.1 base no aside de 350px para ficar ao lado da section movies */
+  justify-content: center; /* Alinhamento para centralizar: parte 2.2 */
+  flex-grow: 1; /* Alinhamento para expandir: parte 2.2 */
+}
+
+.aside-container h3, h4 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.aside-container p {
+  margin: 10px 0;
+  text-align: justify;
+}

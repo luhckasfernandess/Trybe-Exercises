@@ -55,6 +55,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 700px; /* Parte 2.3 */
+  flex-grow: 10;
 }
 
 .movie-container h2 {

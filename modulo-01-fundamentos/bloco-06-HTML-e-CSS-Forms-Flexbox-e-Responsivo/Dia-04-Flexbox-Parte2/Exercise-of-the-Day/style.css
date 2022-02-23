@@ -16,6 +16,10 @@ body {
   justify-content: start; /*Alinhando no início da página*/
 }
 
+.header-container nav:nth-child(1) { /*Parte 1.3*/
+  flex-grow: 1; /*Adicionando propriedade do Flexbox que faz o container do menu crescer*/
+}
+
 .logo-container {
   display: flex;
   justify-content: center;

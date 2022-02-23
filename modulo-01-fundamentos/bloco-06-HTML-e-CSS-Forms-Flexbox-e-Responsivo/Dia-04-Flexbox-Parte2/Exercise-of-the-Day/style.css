@@ -77,6 +77,7 @@ body {
   justify-content: center;
   margin: 10px;
   flex-basis: 16%; /* Aplicando a base para os filhos do .card-container pq são elas que queremos estilizar */
+  flex-grow: 10; /* Expandindo o container de filmes em 10 */
 }
 
 .aside-container {

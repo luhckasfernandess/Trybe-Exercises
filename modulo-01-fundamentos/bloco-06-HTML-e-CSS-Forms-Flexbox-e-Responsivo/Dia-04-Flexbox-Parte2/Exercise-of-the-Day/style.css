@@ -12,17 +12,19 @@ body {
 .header-container {
   background-color: #5C687C;
   display: flex;
+  flex-direction: row-reverse; /*Revertendo a ordem da logo e menu*/
+  justify-content: start; /*Alinhando no início da página*/
 }
 
 .logo-container {
   display: flex;
   justify-content: center;
-  flex-basis: 268px;
+  flex-basis: 268px; /*tamanho do Flexbox base da imagem*/
 }
 
 .menu-container {
   display: flex;
-  flex-basis: 500px;
+  flex-basis: 500px; /*tamanho do Flexbox base do menu*/
 }
 
 .menu-container ul {
@@ -37,3 +39,4 @@ body {
   font-size: 1.3rem;
   list-style: none;
   margin-right: 10px;
+}

@@ -3,10 +3,10 @@
  * apply a natural box layout model to all elements, but allowing components to change
  */
 
- @media screen and (max-width: 450px) {
+ @media screen and (max-width: 800px) { /* Meu breakpoint de 800px */
    body {
      font-size: large; /* Aumentando a fonte */
-     margin: 20px;
+     margin: 20px; /* Adicionando um pouco de margin à página */
    }
 
    h1 {

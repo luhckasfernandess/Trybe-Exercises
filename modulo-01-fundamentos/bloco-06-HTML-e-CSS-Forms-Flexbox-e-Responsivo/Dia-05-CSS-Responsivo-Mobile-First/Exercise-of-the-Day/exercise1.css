@@ -5,11 +5,14 @@
 
  @media screen and (max-width: 450px) {
    body {
-     font-size: large;
+     font-size: large; /* Aumentando a fonte */
    }
 
    h1 {
-     font-size: xx-large;
+     font-size: xx-large; /* Diminuindo a fonte do h1 um pouco */
+   }
+   figure {
+     padding: 20px 0px; /* Espaçando as figuras */
    }
  }
 

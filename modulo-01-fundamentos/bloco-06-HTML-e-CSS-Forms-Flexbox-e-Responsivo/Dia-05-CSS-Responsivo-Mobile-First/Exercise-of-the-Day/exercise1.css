@@ -6,6 +6,7 @@
  @media screen and (max-width: 450px) {
    body {
      font-size: large; /* Aumentando a fonte */
+     margin: 20px;
    }
 
    h1 {

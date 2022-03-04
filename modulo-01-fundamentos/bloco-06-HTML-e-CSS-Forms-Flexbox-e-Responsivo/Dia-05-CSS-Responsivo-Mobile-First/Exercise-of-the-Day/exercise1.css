@@ -1,0 +1,62 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+
+ @media screen and (max-width: 800px) { /* Meu breakpoint de 800px */
+   body {
+     font-size: large; /* Aumentando a fonte */
+     margin: 20px; /* Adicionando um pouco de margin à página */
+   }
+
+   h1 {
+     font-size: xx-large; /* Diminuindo a fonte do h1 um pouco */
+   }
+   figure {
+     padding: 20px 0px; /* Espaçando as figuras */
+   }
+ }
+
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+
+}
+
+article {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+
+}
+
+section {
+
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+  font-size: .8em;
+}

@@ -1,5 +1,5 @@
-// Dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
-// Mars, Venus and Jupiter
+// Agora, dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
+// Mars, Jupiter and Venus
 
 const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
   `${name} is ${value} ${measurementUnit} apart from the Sun`;
@@ -29,6 +29,8 @@ const jupiter = {
 };
 
 console.log(planetDistanceFromSun(mars)); // A
-console.log(planetDistanceFromSun(venus)); // B
-console.log(planetDistanceFromSun(jupiter)); // C
-// A, B, C
+setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B
+setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C
+// A, C, B
+// Mars will run immediately. Soon after, Jupiter, because of the 2 second setTimeout
+// And lastly, Venus, after 3 seconds

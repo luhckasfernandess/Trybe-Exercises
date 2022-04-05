@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import pokemons from './data';
-import Pokemon from './Components/Pokemon'
+import Pokedex from './Components/Pokedex';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        {pokemons.map((elem) => (
-          <Pokemon pokemon={elem} key={elem.id}/>
-        ))}
-      </div>
+      <Pokedex />
     );
   }
 }

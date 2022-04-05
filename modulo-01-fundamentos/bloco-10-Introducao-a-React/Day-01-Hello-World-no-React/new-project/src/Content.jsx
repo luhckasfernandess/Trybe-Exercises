@@ -26,9 +26,9 @@ const conteudos = [
 class Content extends Component {
     render () {
         return (
-           <div>
+           <div className = 'content'>
                {conteudos.map((e) => (
-                   <div key={e.conteudo}>
+                   <div key={e.conteudo} className = 'card'>
                        <h4>{`O conteúdo é: ${e.conteudo}`}</h4>
                        <p>{`Status: ${e.status}`}</p>
                        <p>{`Bloco: ${e.bloco}`}</p>

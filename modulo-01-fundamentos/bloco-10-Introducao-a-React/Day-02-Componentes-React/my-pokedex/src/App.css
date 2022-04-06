@@ -1,0 +1,33 @@
+* {
+  text-align: center;
+}
+
+/* Div */
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* section */
+.pokemon-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px gray solid;
+  border-radius: 10px;
+  margin: 10px;
+  /* Padroniza o tamanho */
+  flex: 1 1 0; 
+}
+
+/* ul */
+.pokemon-info {
+  /* Remover as bolinhas das li */
+  list-style: none;
+}
+
+.li {
+  padding: 2px;
+}

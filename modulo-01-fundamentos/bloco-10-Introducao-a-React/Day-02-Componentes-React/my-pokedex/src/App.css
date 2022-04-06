@@ -1,24 +1,33 @@
-.App {
+* {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+/* Div */
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+/* section */
+.pokemon-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px gray solid;
+  border-radius: 10px;
+  margin: 10px;
+  /* Padroniza o tamanho */
+  flex: 1 1 0; 
 }
 
-.App-intro {
-  font-size: large;
+/* ul */
+.pokemon-info {
+  /* Remover as bolinhas das li */
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.li {
+  padding: 2px;
 }
